@@ -1,0 +1,79 @@
+/* Contact form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #f9b53a;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Success message styles */
+  #success-message p {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .slide-up {
+    animation: slideInUp 0.5s forwards;
+  }
+  
+  .slide-down {
+    animation: slideInDown 0.5s forwards;
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s forwards;
+  }
+  
