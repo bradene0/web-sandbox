@@ -1,0 +1,154 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 1rem;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #f9b53a;
+  }
+  
+  .hire-me {
+    background-color: #f9b53a;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  .hire-me a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Section styles */
+  .section {
+    padding: 4rem 2rem;
+  }
+  
+  .section-content {
+    text-align: center;
+  }
+  
+  /* Contact form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #f9b53a;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Mobile styles */
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 1rem;
+    }
+  
+    .nav-links li {
+      margin: 0.5rem 0;
+    }
+  
+    .nav-links li a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+  
+    .nav-links li a:hover {
+      color: #f9b53a;
+    }
+  
+    .show-menu {
+      display: flex;
+    }
+  
+    .section-content {
+      padding: 2rem;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    /* Desktop styles */
+  
+    .section-content {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+  }
+  
