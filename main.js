@@ -1,4 +1,4 @@
-document.getElementById("contact-form").addEventListener("submit", function(e) {
+/*document.getElementById("contact-form").addEventListener("submit", function(e) {
     e.preventDefault();
   
     // Get form values
@@ -16,7 +16,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
     document.getElementById("email").value = "";
     document.getElementById("message").value = "";
   });
-  
+  /* Having trouble with this event listener
   document.querySelector(".hire-me a").addEventListener("click", function(e) {
     e.preventDefault();
     toggleContactSection();
@@ -25,7 +25,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
   function toggleContactSection() {
     var contactSection = document.getElementById("contact");
   
-    /* Toggle section visibility and apply slide animation*/
+    /* Toggle section visibility and apply slide animation
     if (contactSection.classList.contains("hidden")) {
       contactSection.classList.remove("hidden");
       contactSection.classList.add("slide-up");
@@ -37,6 +37,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
       }, 500);
     }
   }
+  */
 
 
 
