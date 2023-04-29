@@ -17,7 +17,7 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
     document.getElementById("message").value = "";
   });
   
-  document.querySelector(".hire-m a").addEventListener("click", function(e) {
+  document.querySelector(".hire-me a").addEventListener("click", function(e) {
     e.preventDefault();
     toggleContactSection();
   });
